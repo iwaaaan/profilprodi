@@ -1,3 +1,4 @@
+{
   "version": 2,
   "functions": {
     "api/index.php": {
@@ -7,3 +8,4 @@
   "routes": [
     { "src": "/(.*)", "dest": "api/index.php" }
   ]
+}
