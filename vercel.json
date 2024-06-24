@@ -1,4 +1,3 @@
-echo '{
   "version": 2,
   "functions": {
     "api/index.php": {
@@ -8,4 +7,3 @@ echo '{
   "routes": [
     { "src": "/(.*)", "dest": "api/index.php" }
   ]
-}' > vercel.json
